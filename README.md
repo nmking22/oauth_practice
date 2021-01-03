@@ -18,6 +18,7 @@ OAuth Practice is a very simple rails app built to practice the basics of OAuth.
 
 ## Using the App
 1. Run the `rails s` command in the application's root directory.
+<img width="1440" alt="Screen Shot 2021-01-02 at 10 57 58 PM" src="https://user-images.githubusercontent.com/68172332/103472803-082f3a00-4d4f-11eb-9f90-385fcf37584f.png">
 2. Navigate to `localhost:3000` in your browser of choice.
 3. Click the Login button.
 4. Enter your github credentials.
