@@ -1,0 +1,15 @@
+<h1>Welcome, <%= current_user.username %></h1>
+
+<h2>Public Repos</h2>
+<% @public_repos.each do |repo| %>
+  <h3><%= repo[:name] %></h3>
+  <p>Owner: <%= repo[:owner][:login] %></p>
+  <p>Language: <%= repo[:language] %></p>
+<% end %>
+
+<h2>Private Repos</h2>
+<% @private_repos.each do |repo| %>
+  <h3><%= repo[:name] %></h3>
+  <p>Owner: <%= repo[:owner][:login] %></p>
+  <p>Language: <%= repo[:language] %></p>
+<% end %>
