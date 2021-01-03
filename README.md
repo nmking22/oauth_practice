@@ -1,24 +1,25 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### About this Project
 
-Things you may want to cover:
+OAuth Practice is a very simple rails app built to practice the basics of OAuth. The app allows users to log in with their github credentials, and view lists of their public and private repos. It is designed to work on localhost:3000.
 
-* Ruby version
+## Local Setup
 
-* System dependencies
+1. Fork and Clone the repo
+2. Install gem packages: `bundle install`
+3. Setup the database: `rails db:create`
 
-* Configuration
 
-* Database creation
+## Versions
 
-* Database initialization
+- Ruby 2.5.3
+- Rails 5.2.4.3
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## Using the App
+1. Run the `rails s` command in the application's root directory.
+2. Navigate to `localhost:3000` in your browser of choice.
+3. Click the Login button.
+4. Enter your github credentials.
+5. Behold the wonder of your github repositories. Public repos appear at the top, while private repos are grouped at the bottom of the page.
+6. ... And that's it! Very simple, indeed.
